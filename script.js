@@ -20,5 +20,4 @@ if(isNaN(numero1) || isNaN(numero2)) { // verifica se a variel é NaN, caso for 
         numSorteado.innerHTML = "Nº" + randomNumber
 }
 }
-
 sortear.addEventListener("click", sortearNum)
