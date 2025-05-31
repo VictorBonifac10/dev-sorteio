@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
 }
 
 body{
@@ -10,10 +11,10 @@ body{
 }
 
 #logo{
-    width: 300px;
+    width: 250px;
     display: block;
     margin: 0px auto;
-    margin-top: 25px ;
+    margin-top: 20px ;
 }
 
 main{
@@ -32,6 +33,25 @@ input{
     background: #262626;
     color: #fff;
     border: 0.5px solid rgb(165, 151, 151);
+}
+
+.numberSorteado{
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    width: 90px;
+    padding: 23px;
+    border: 0.5px solid rgb(165, 151, 151);
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.msg-aviso{
+    text-align: center;
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 10;
+    margin: 5px 0px 5px 0px;
 }
 
 button{
