@@ -12,9 +12,11 @@ function sortearNum() {
 if(isNaN(numero1) || isNaN(numero2)) { // verifica se a variel é NaN, caso for a seguinte msg abaixo aparece
         aviso.innerHTML = "É preciso selecionar um intervalo de números para o sorteio"
         numSorteado.innerHTML = "No!"
+
 }else if(numero1 >= numero2){
         aviso.innerHTML = "É preciso que o intervalo seja de um numero menor para um numero maior"
         numSorteado.innerHTML = "No!"
+        
 }else{
         aviso.innerHTML = ""
         numSorteado.innerHTML = "Nº" + randomNumber
